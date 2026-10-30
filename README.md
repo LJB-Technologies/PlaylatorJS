@@ -19,4 +19,4 @@ Red and black frontend with icons, and previews on hover. you can use the mouse,
 
 wasd / arrow keys to move the game selector, z to enter games. Slash key "/" to jump to the search bar.
 
-![Preview](Screenshot.png)
+![Preview](Preview.png)
