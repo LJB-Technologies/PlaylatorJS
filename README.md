@@ -58,7 +58,7 @@ Inside the folder(in this example is NES Mario), name it "[gameid].js". So "Supe
 **icon:** path to an icon image in the same folder.
 **previews:** an array of preview images to show as a slideshow in the frontend.
 
-Additionally, you can use the **Game Packager tool** in: "app/games/Packager.html":
+Additionally, you can use the **Game Packager tool** in: "app/tools/Packager.html":
 ![Packager tool preview](packager.png)
 It allows you to set an icon, give it a name/ID, give it a system, and slideshow preview images to be displayed.
 Then you can export a final ZIP file, which you can extract into "games/" and name "g2/3/4/5/etc". Keep in mind that you have to move the Game data JS file into the platform and system folder it goes to, or it won't launch.
@@ -70,3 +70,4 @@ I am planning to make an upcoming tool to turn games into a single truly offline
 There is also an upcoming icon tool, but I'm lazy now so it's made with AI :p
 
 **Go to the releases page to get a version of PlaylatorJS.**
+**For many reasons I am not including any game ROMS in the releases. You have to get your own and package your own games.**
