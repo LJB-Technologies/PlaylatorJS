@@ -1,6 +1,8 @@
 
 ![Logo](logo.png)
 
+##Example Demo video on Acer Chromebook 511 c736 - N64 graphics are kinda buggy
+![Demo preview](Demovid.webm)
 
 ## Time to make web-based gaming even better.
 
