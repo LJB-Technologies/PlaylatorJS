@@ -31,3 +31,42 @@ I gave it a red "virtual-boy" styled theme, as EmulatorJS has a blue theme. I al
 **PlaylatorJS Logo**
 ![EmuJS logo](logo.png)
 
+## Adding games
+
+To add games to the frontend, you need a folder, "g[number]". For example if you have 5 games, name it "g6".
+
+After that, the game needs an info file so the frontend can recognize it. Here is an example info.js file: 
+
+```javascript
+window.GAME_INFO = {
+  name: "Super Mario Bros.",
+  gameId: "SuperMarioBros",
+  system: "NES",
+  outline: "#e74c3c",
+  icon: "icon.png",
+  previews: ["prev1.png", "prev2.png", "prev3.png"]
+};
+```
+**name:** This field is the game's name.
+**gameId:** This field is the game's ID. It must have no spaces, it is the name of the game's data file(which contains the ROM).
+Data files must be stored in: "PLATFORMS" inside the "app/games/" folder. inside "PLATFORMS", you will find "NES" and "N64". 
+**Changing these names is bad, Leave them alone!**
+Inside the folder(in this example is NES Mario), name it "[gameid].js". So "SuperMarioBros.js".
+
+**system:** The system name. It must be a specific ID, or it won't work. expect a page on this in the future.
+**outline:** Outline color for the icon. It's supposed to be red, so you can't change it in the packager tool.
+**icon:** path to an icon image in the same folder.
+**previews:** an array of preview images to show as a slideshow in the frontend.
+
+Additionally, you can use the **Game Packager tool** in: "app/games/Packager.html":
+![Packager tool preview](packager.png)
+It allows you to set an icon, give it a name/ID, give it a system, and slideshow preview images to be displayed.
+Then you can export a final ZIP file, which you can extract into "games/" and name "g2/3/4/5/etc". Keep in mind that you have to move the Game data JS file into the platform and system folder it goes to, or it won't launch.
+
+## Other tools and stuff
+
+I am planning to make an upcoming tool to turn games into a single truly offline file, no frontend, essentially a simpler version.
+
+There is also an upcoming icon tool, but I'm lazy now so it's made with AI :p
+
+**Go to the releases page to get a version of PlaylatorJS.**
