@@ -26,7 +26,7 @@ wasd / arrow keys to move the game selector, z to enter games. Slash key "/" to 
 I gave it a red "virtual-boy" styled theme, as EmulatorJS has a blue theme. I also removed the bottom curve to make the logo look like a portable bag, which fits the offline portable gaming aesthetic.
 
 **EmulatorJS Logo**
-![EmuJS logo](logo1.png)
+![EmuJS logo](logo2.png)
 
 **PlaylatorJS Logo**
 ![EmuJS logo](logo.png)
